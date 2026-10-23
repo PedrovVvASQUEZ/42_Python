@@ -21,7 +21,7 @@ def main() -> None:
     """Main function: process the args and execute program accordingly"""
 
     if len(sys.argv) > 2:
-        print("Assertionerror: more than one argument is provided")
+        print("AssertionError: more than one argument is provided")
         return
 
     if len(sys.argv) == 1 or sys.argv[1] == "":
